@@ -10,7 +10,7 @@ export function SignInButton() {
     <button 
       type="button"
       className={styles.signInButton}
-    >
+    >  
       <FaGithub color="#04d361" />
       Gabriel Teodoro
 
