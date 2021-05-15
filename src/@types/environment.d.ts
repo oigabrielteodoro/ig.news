@@ -6,6 +6,8 @@ declare global {
       GITHUB_CLIENT_ID: string;
       GITHUB_CLIENT_SECRET: string;
       FAUNADB_KEY: string;
+      STRIPE_SUCCESS_URL: string;
+      STRIPE_CANCEL_URL: string;
     }
   }
 }
