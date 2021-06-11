@@ -1,4 +1,4 @@
-import { signin, useSession } from 'next-auth/client';
+import { signIn, useSession } from 'next-auth/client';
 
 import { useRouter } from 'next/router';
 
@@ -19,7 +19,7 @@ export function SubscribeButton({ priceId }: SubscribeButtonProps) {
 
   async function handleSubscribe() {
     if (!session) {
-      signin('github');
+      signIn('github');
       return;
     }
 
